@@ -19,6 +19,7 @@ function getTime(){
     s = s<10 ? "0"+ s : s;
 
     const timestr = h + ":" + m + ":" + s ;
+    
     time.textContent = timestr;
 }
 
